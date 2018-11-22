@@ -2,13 +2,10 @@
 
 # --- Stream Service ---
 # >> YouTube
-USER-AGENT,*youtube*,Stream Services
-USER-AGENT,YouTube*,Stream Services
 DOMAIN-SUFFIX,googlevideo.com,Stream Services,force-remote-dns
 DOMAIN-SUFFIX,youtube.com,Stream Services,force-remote-dns
 DOMAIN,youtubei.googleapis.com,Stream Services,force-remote-dns
 # >> Netflix
-USER-AGENT,Argo*,Stream Services
 DOMAIN-SUFFIX,netflix.com,Stream Services
 DOMAIN-SUFFIX,netflix.net,Stream Services
 DOMAIN-SUFFIX,nflxext.com,Stream Services
@@ -17,38 +14,30 @@ DOMAIN-SUFFIX,nflximg.net,Stream Services
 DOMAIN-SUFFIX,nflxso.net,Stream Services
 DOMAIN-SUFFIX,nflxvideo.net,Stream Services
 # >> HBO
-USER-AGENT,HBO%20NOW*,Stream Services
 DOMAIN-SUFFIX,hbo.com,Stream Services
 DOMAIN-SUFFIX,hbogo.com,Stream Services
 # >> Hulu
-USER-AGENT,Hulu*,Stream Services
 DOMAIN-SUFFIX,hulu.com,Stream Services
 DOMAIN-SUFFIX,huluim.com,Stream Services
 DOMAIN-SUFFIX,happyon.jp,Stream Services
 # >> BBC
-USER-AGENT,BBCiPlayer*,Stream Services
 DOMAIN-SUFFIX,bbc.co.uk,Stream Services,force-remote-dns
 DOMAIN-SUFFIX,bbci.co.uk,Stream Services,force-remote-dns
 DOMAIN-KEYWORD,bbcfmt,Stream Services
 DOMAIN-KEYWORD,uk-live,Stream Services
 # >> Bahamut
-USER-AGENT,Anime*,Stream Services
 DOMAIN-SUFFIX,bahamut.com.tw,Stream Services
 DOMAIN-SUFFIX,gamer.com.tw,Stream Services
 DOMAIN-SUFFIX,hinet.net,Stream Services
 # >> myTV Super
-USER-AGENT,mytv*,Stream Services
 DOMAIN-SUFFIX,mytvsuper.com,Stream Services
 DOMAIN-SUFFIX,tvb.com,Stream Services
 # >> AbemaTV
-USER-AGENT,AbemaTV*,Stream Services
 DOMAIN-SUFFIX,abema.io,Stream Services
 DOMAIN-SUFFIX,ameba.jp,Stream Services
 DOMAIN-SUFFIX,hayabusa.io,Stream Services
 DOMAIN,linear-abematv.akamaized.net,Stream Services
 # >> JOOX
-USER-AGENT,WeMusic*,Stream Services
-USER-AGENT,JOOX*,Stream Services
 DOMAIN-SUFFIX,joox.com,Stream Services
 # --- End of Stream Service Section ---
 
@@ -172,7 +161,6 @@ DOMAIN,api-glb-sea.smoot.apple.com,rixCloud
 DOMAIN-SUFFIX,itunes.apple.com,Apple Services
 DOMAIN,audio-ssl.itunes.apple.com,Apple Services
 DOMAIN,gspe1-ssl.ls.apple.com,Apple Services
-USER-AGENT,Apple ServicesNews*,rixCloud
 DOMAIN-SUFFIX,aaplimg.com,Apple Services
 DOMAIN-SUFFIX,Apple Services.co,Apple Services
 DOMAIN-SUFFIX,Apple Services.com,Apple Services
@@ -246,8 +234,6 @@ DOMAIN-SUFFIX,storage.live.com,DIRECT
 DOMAIN-SUFFIX,1drv.com,DIRECT
 DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
 # >> WeChat
-USER-AGENT,MicroMessenger Client,DIRECT
-USER-AGENT,WeChat*,DIRECT
 # >> Blizzard
 DOMAIN-SUFFIX,blizzard.com,DIRECT
 DOMAIN-SUFFIX,battle.net,DIRECT
