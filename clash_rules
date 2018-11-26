@@ -39,6 +39,10 @@ DOMAIN-SUFFIX,hayabusa.io,Stream Services
 DOMAIN,linear-abematv.akamaized.net,Stream Services
 # >> JOOX
 DOMAIN-SUFFIX,joox.com,Stream Services
+# >> Spotify
+DOMAIN-SUFFIX,scdn.co,Stream Services
+DOMAIN-SUFFIX,spotify.com,Stream Services
+DOMAIN-SUFFIX,spoti.fi,Stream Services
 # --- End of Stream Service Section ---
 
 # --- Enhanced Anti-GFW ---
