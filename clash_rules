@@ -1,7 +1,7 @@
 
-DOMAIN-SUFFIX,googlevideo.com,Stream Services,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,Stream Services,force-remote-dns
-DOMAIN,youtubei.googleapis.com,Stream Services,force-remote-dns
+DOMAIN-SUFFIX,googlevideo.com,Stream Services
+DOMAIN-SUFFIX,youtube.com,Stream Services
+DOMAIN,youtubei.googleapis.com,Stream Services
 DOMAIN-SUFFIX,netflix.com,Stream Services
 DOMAIN-SUFFIX,netflix.net,Stream Services
 DOMAIN-SUFFIX,nflxext.com,Stream Services
@@ -14,8 +14,8 @@ DOMAIN-SUFFIX,hbogo.com,Stream Services
 DOMAIN-SUFFIX,hulu.com,Stream Services
 DOMAIN-SUFFIX,huluim.com,Stream Services
 DOMAIN-SUFFIX,happyon.jp,Stream Services
-DOMAIN-SUFFIX,bbc.co.uk,Stream Services,force-remote-dns
-DOMAIN-SUFFIX,bbci.co.uk,Stream Services,force-remote-dns
+DOMAIN-SUFFIX,bbc.co.uk,Stream Services
+DOMAIN-SUFFIX,bbci.co.uk,Stream Services
 DOMAIN-KEYWORD,bbcfmt,Stream Services
 DOMAIN-KEYWORD,uk-live,Stream Services
 DOMAIN-SUFFIX,bahamut.com.tw,Stream Services
@@ -31,108 +31,106 @@ DOMAIN-SUFFIX,joox.com,Stream Services
 DOMAIN-SUFFIX,scdn.co,Stream Services
 DOMAIN-SUFFIX,spotify.com,Stream Services
 DOMAIN-SUFFIX,spoti.fi,Stream Services
-
-DOMAIN-SUFFIX,rix.ee,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,rixcloud.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,rixcloud.us,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,rixcloud.io,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,rixcloud.app,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,rixcloud.ee,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,rix.ee,rixCloud
+DOMAIN-SUFFIX,rixcloud.com,rixCloud
+DOMAIN-SUFFIX,rixcloud.us,rixCloud
+DOMAIN-SUFFIX,rixcloud.io,rixCloud
+DOMAIN-SUFFIX,rixcloud.app,rixCloud
+DOMAIN-SUFFIX,rixcloud.ee,rixCloud
 DOMAIN,analytics.rixcloud.app,DIRECT
-DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,blogger.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,getoutline.org,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,gvt0.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,gvt1.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,fb.me,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,fbcdn.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,instagram.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,messenger.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,oculus.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,oculuscdn.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,t.co,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,twimg.co,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,twimg.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,twitpic.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,twitter.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,line.me,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,line-apps.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,line-scdn.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,naver.jp,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,abc.net.au,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,amazon.co.jp,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,apk-dl.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,apkpure.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,ask.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,bandwagonhost.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,bbc.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,behance.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,bibox.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,binance.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,bitfinex.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,booklive.jp,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,bwh1.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,cbc.ca,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,dailymotion.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,deezer.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,dropbox.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,dropboxusercontent.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,duckduckgo.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,feedly.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,flickr.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,gate.io,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,goodreads.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,huobi.pro,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,initiummall.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,kakao.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,live.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,medium.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,mega.nz,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,naver.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,nyt.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,nytco.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,nytimes.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,nytstyle.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,ok.ru,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,okex.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,pixiv.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,pornhub.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,quora.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,reddit.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,redditmedia.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,reuters.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,scribd.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,shadowsocks.org,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,slideshare.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,soundcloud.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,steamcommunity.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,telegram.org,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,theinitium.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,tineye.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,tumblr.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,twitch.tv,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,uptodown.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,v2ray.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,vimeo.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,vine.co,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,voachinese.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whoer.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,wikipedia.org,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,wsj.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,wsj.net,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,xvideos.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,yahoo.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
-
+DOMAIN-SUFFIX,appspot.com,rixCloud
+DOMAIN-SUFFIX,blogger.com,rixCloud
+DOMAIN-SUFFIX,getoutline.org,rixCloud
+DOMAIN-SUFFIX,gvt0.com,rixCloud
+DOMAIN-SUFFIX,gvt1.com,rixCloud
+DOMAIN-SUFFIX,gvt3.com,rixCloud
+DOMAIN-KEYWORD,google,rixCloud
+DOMAIN-SUFFIX,gmail.com,rixCloud
+DOMAIN-KEYWORD,blogspot,rixCloud
+DOMAIN-SUFFIX,cdninstagram.com,rixCloud
+DOMAIN-SUFFIX,fb.me,rixCloud
+DOMAIN-SUFFIX,fbcdn.net,rixCloud
+DOMAIN-SUFFIX,instagram.com,rixCloud
+DOMAIN-SUFFIX,messenger.com,rixCloud
+DOMAIN-SUFFIX,whatsapp.com,rixCloud
+DOMAIN-SUFFIX,whatsapp.net,rixCloud
+DOMAIN-SUFFIX,oculus.com,rixCloud
+DOMAIN-SUFFIX,oculuscdn.com,rixCloud
+DOMAIN-KEYWORD,facebook,rixCloud
+DOMAIN-SUFFIX,t.co,rixCloud
+DOMAIN-SUFFIX,twimg.co,rixCloud
+DOMAIN-SUFFIX,twimg.com,rixCloud
+DOMAIN-SUFFIX,twitpic.com,rixCloud
+DOMAIN-SUFFIX,twitter.com,rixCloud
+DOMAIN-SUFFIX,line.me,rixCloud
+DOMAIN-SUFFIX,line-apps.com,rixCloud
+DOMAIN-SUFFIX,line-scdn.net,rixCloud
+DOMAIN-SUFFIX,naver.jp,rixCloud
+DOMAIN-SUFFIX,abc.net.au,rixCloud
+DOMAIN-SUFFIX,amazon.co.jp,rixCloud
+DOMAIN-SUFFIX,apk-dl.com,rixCloud
+DOMAIN-SUFFIX,apkpure.com,rixCloud
+DOMAIN-SUFFIX,ask.com,rixCloud
+DOMAIN-SUFFIX,bandwagonhost.com,rixCloud
+DOMAIN-SUFFIX,bbc.com,rixCloud
+DOMAIN-SUFFIX,behance.net,rixCloud
+DOMAIN-SUFFIX,bibox.com,rixCloud
+DOMAIN-SUFFIX,binance.com,rixCloud
+DOMAIN-SUFFIX,bitfinex.com,rixCloud
+DOMAIN-SUFFIX,booklive.jp,rixCloud
+DOMAIN-SUFFIX,bwh1.net,rixCloud
+DOMAIN-SUFFIX,cbc.ca,rixCloud
+DOMAIN-SUFFIX,dailymotion.com,rixCloud
+DOMAIN-SUFFIX,deezer.com,rixCloud
+DOMAIN-SUFFIX,dropbox.com,rixCloud
+DOMAIN-SUFFIX,dropboxusercontent.com,rixCloud
+DOMAIN-SUFFIX,duckduckgo.com,rixCloud
+DOMAIN-SUFFIX,feedly.com,rixCloud
+DOMAIN-SUFFIX,flickr.com,rixCloud
+DOMAIN-SUFFIX,gate.io,rixCloud
+DOMAIN-SUFFIX,goodreads.com,rixCloud
+DOMAIN-SUFFIX,huobi.pro,rixCloud
+DOMAIN-SUFFIX,initiummall.com,rixCloud
+DOMAIN-SUFFIX,kakao.com,rixCloud
+DOMAIN-SUFFIX,live.com,rixCloud
+DOMAIN-SUFFIX,medium.com,rixCloud
+DOMAIN-SUFFIX,mega.nz,rixCloud
+DOMAIN-SUFFIX,naver.com,rixCloud
+DOMAIN-SUFFIX,nyt.com,rixCloud
+DOMAIN-SUFFIX,nytco.com,rixCloud
+DOMAIN-SUFFIX,nytimes.com,rixCloud
+DOMAIN-SUFFIX,nytstyle.com,rixCloud
+DOMAIN-SUFFIX,ok.ru,rixCloud
+DOMAIN-SUFFIX,okex.com,rixCloud
+DOMAIN-SUFFIX,pixiv.net,rixCloud
+DOMAIN-SUFFIX,pornhub.com,rixCloud
+DOMAIN-SUFFIX,quora.com,rixCloud
+DOMAIN-SUFFIX,reddit.com,rixCloud
+DOMAIN-SUFFIX,redditmedia.com,rixCloud
+DOMAIN-SUFFIX,reuters.com,rixCloud
+DOMAIN-SUFFIX,scribd.com,rixCloud
+DOMAIN-SUFFIX,shadowsocks.org,rixCloud
+DOMAIN-SUFFIX,slideshare.net,rixCloud
+DOMAIN-SUFFIX,soundcloud.com,rixCloud
+DOMAIN-SUFFIX,steamcommunity.com,rixCloud
+DOMAIN-SUFFIX,telegram.org,rixCloud
+DOMAIN-SUFFIX,theinitium.com,rixCloud
+DOMAIN-SUFFIX,tineye.com,rixCloud
+DOMAIN-SUFFIX,tumblr.com,rixCloud
+DOMAIN-SUFFIX,twitch.tv,rixCloud
+DOMAIN-SUFFIX,uptodown.com,rixCloud
+DOMAIN-SUFFIX,v2ray.com,rixCloud
+DOMAIN-SUFFIX,vimeo.com,rixCloud
+DOMAIN-SUFFIX,vine.co,rixCloud
+DOMAIN-SUFFIX,voachinese.com,rixCloud
+DOMAIN-SUFFIX,whoer.net,rixCloud
+DOMAIN-SUFFIX,wikipedia.org,rixCloud
+DOMAIN-SUFFIX,wsj.com,rixCloud
+DOMAIN-SUFFIX,wsj.net,rixCloud
+DOMAIN-SUFFIX,xvideos.com,rixCloud
+DOMAIN-SUFFIX,yahoo.com,rixCloud
+DOMAIN-SUFFIX,pinimg.com,rixCloud
+DOMAIN-KEYWORD,pinterest,rixCloud
 DOMAIN-SUFFIX,appsto.re,rixCloud
 DOMAIN,itunes.apple.com,Apple Services
 DOMAIN,books.itunes.apple.com,rixCloud
@@ -204,7 +202,6 @@ IP-CIDR,91.108.8.0/22,rixCloud
 IP-CIDR,91.108.56.0/22,rixCloud
 IP-CIDR,109.239.140.0/24,rixCloud
 IP-CIDR,149.154.160.0/20,rixCloud
-
 DOMAIN-SUFFIX,storage.live.com,DIRECT
 DOMAIN-SUFFIX,1drv.com,DIRECT
 DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
@@ -219,7 +216,6 @@ DOMAIN,steamstore-a.akamaihd.net,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,ipv6-test.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
-
 DOMAIN-SUFFIX,local,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 IP-CIDR,172.16.0.0/12,DIRECT
@@ -227,7 +223,5 @@ IP-CIDR,192.168.0.0/16,DIRECT
 IP-CIDR,10.0.0.0/8,DIRECT
 IP-CIDR,17.0.0.0/8,DIRECT
 IP-CIDR,100.64.0.0/10,DIRECT
-
-
 GEOIP,CN,DIRECT
 FINAL,,rixCloud
