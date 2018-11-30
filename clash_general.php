@@ -9,4 +9,8 @@ return [
     'log-level'           => 'info',
     'external-controller' => '0.0.0.0:6170',
     'secret'              => '',
+    'cfw-bypass'          => [
+    	'music.163.com',
+    	'*.music.126.net',
+    ],
 ];
