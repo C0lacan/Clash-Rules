@@ -402,6 +402,7 @@ DOMAIN,adsdk.dmzj.com,REJECT
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,adshows.21cn.com,REJECT
 DOMAIN,adui.tg.meitu.com,REJECT
+DOMAIN,adx.hupu.com,REJECT
 DOMAIN,adxserver.ad.cmvideo.cn,REJECT
 DOMAIN,app-ad.variflight.com,REJECT
 DOMAIN,applog.mobike.com,REJECT
