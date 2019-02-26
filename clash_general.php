@@ -16,7 +16,7 @@ return [
     'dns' => [
         'enable'          =>  true,
         'ipv6'            =>  false,
-        'listen'          =>  '0.0.0.0:53',
+        'listen'          =>  '0.0.0.0:9053',
         'enhanced-mode'   =>  'redir-host',
         'nameserver'      => [
             '119.29.29.29',
