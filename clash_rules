@@ -693,6 +693,9 @@ DOMAIN,hls.itunes.apple.com,rixCloud
 DOMAIN,itunes.apple.com,rixCloud
 DOMAIN,lookup-api.apple.com,rixCloud
 
+//Cloudflare
+DOMAIN-SUFFIX,cloudflareresolve.com,rixCloud,force-remote-dns
+
 //Google
 DOMAIN-KEYWORD,blogspot,rixCloud
 DOMAIN-KEYWORD,google,rixCloud
@@ -784,7 +787,7 @@ DOMAIN-SUFFIX,line-apps.com,rixCloud
 DOMAIN-SUFFIX,line-scdn.net,rixCloud
 DOMAIN-SUFFIX,naver.jp,rixCloud
 
-//>> Other
+// Other
 DOMAIN-SUFFIX,abc.net.au,rixCloud
 DOMAIN-SUFFIX,amazon.co.jp,rixCloud
 DOMAIN-SUFFIX,apk-dl.com,rixCloud
