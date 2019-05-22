@@ -694,7 +694,7 @@ DOMAIN,itunes.apple.com,rixCloud
 DOMAIN,lookup-api.apple.com,rixCloud
 
 //Cloudflare
-DOMAIN-SUFFIX,cloudflareresolve.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,cloudflareresolve.com,rixCloud
 
 //Google
 DOMAIN-KEYWORD,blogspot,rixCloud
