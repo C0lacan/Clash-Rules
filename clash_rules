@@ -15,44 +15,163 @@ DOMAIN-SUFFIX,itunes.apple.com,Apple Services
 DOMAIN-SUFFIX,me.com,Apple Services
 DOMAIN-SUFFIX,mzstatic.com,Apple Services
 
-//Stream Services
+// --- Stream Service ---
 
 //AbemaTV
+DOMAIN,abematv.akamaized.net,Stream Services
+DOMAIN,ds-linear-abematv.akamaized.net,Stream Services
+DOMAIN,ds-vod-abematv.akamaized.net,Stream Services
+DOMAIN,linear-abematv.akamaized.net,Stream Services
+
 DOMAIN-SUFFIX,abema.io,Stream Services
 DOMAIN-SUFFIX,ameba.jp,Stream Services
 DOMAIN-SUFFIX,hayabusa.io,Stream Services
-DOMAIN,linear-abematv.akamaized.net,Stream Services
+
+USER-AGENT,AbemaTV*,Stream Services
+
+//All4
+DOMAIN-SUFFIX,c4assets.com,Stream Services
+DOMAIN-SUFFIX,channel4.com,Stream Services
+
+USER-AGENT,All4*,Stream Services
+
+//Amazon Prime Video
+DOMAIN-SUFFIX,primevideo.com,Stream Services
+
+USER-AGENT,InstantVideo.US*,Stream Services
+USER-AGENT,Prime%20Video*,Stream Services
+
+//Apple TV
+DOMAIN,ocvideo.apple.com,Stream Services
 
 //Bahamut
+DOMAIN,gamer-cds.cdn.hinet.net,Stream Services
+DOMAIN,gamer2-cds.cdn.hinet.net,Stream Services
+
 DOMAIN-SUFFIX,bahamut.com.tw,Stream Services
 DOMAIN-SUFFIX,gamer.com.tw,Stream Services
-DOMAIN-SUFFIX,hinet.net,Stream Services
+
+USER-AGENT,Anime*,Stream Services
 
 //BBC
-DOMAIN-SUFFIX,bbc.co.uk,Stream Services
-DOMAIN-SUFFIX,bbci.co.uk,Stream Services
 DOMAIN-KEYWORD,bbcfmt,Stream Services
 DOMAIN-KEYWORD,uk-live,Stream Services
 
+DOMAIN-SUFFIX,bbc.co.uk,Stream Services
+DOMAIN-SUFFIX,bbci.co.uk,Stream Services
+
+USER-AGENT,BBCiPlayer*,Stream Services
+
+//DAZN
+DOMAIN-SUFFIX,dazn.com,Stream Services
+USER-AGENT,DAZN*,Stream Services
+
+//Deezer
+DOMAIN-SUFFIX,deezer.com,Stream Services
+DOMAIN-SUFFIX,dzcdn.net,Stream Services
+USER-AGENT,Deezer*,Stream Services
+
+//encoreTVB
+DOMAIN,bcbolt446c5271-a.akamaihd.net,Stream Services
+DOMAIN,content.jwplatform.com,Stream Services
+DOMAIN,edge.api.brightcove.com,Stream Services
+DOMAIN,videos-f.jwpsrv.com,Stream Services
+
+DOMAIN-SUFFIX,encoretvb.com,Stream Services
+
+USER-AGENT,encoreTVB*,Stream Services
+
+//Fox Now
+DOMAIN-SUFFIX,fox.com,Stream Services
+DOMAIN-SUFFIX,foxdcg.com,Stream Services
+DOMAIN-SUFFIX,uplynk.com,Stream Services
+
+USER-AGENT,FOX%20NOW*,Stream Services
+
+//Fox+ (HK|TW|SG)
+DOMAIN,dashasiafox.akamaized.netflix,Stream Services
+DOMAIN,staticasiafox.akamaized.net,Stream Services
+
+DOMAIN-SUFFIX,foxplus.com,Stream Services
+DOMAIN-SUFFIX,theplatform.com,Stream Services
+
+USER-AGENT,FOXPlus*,Stream Services
+
 //HBO
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,Stream Services
+DOMAIN,bcbolthboa-a.akamaihd.net,Stream Services
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,Stream Services
+DOMAIN,manifest.prod.boltdns.net,Stream Services
+DOMAIN,s3-ap-southeast-1.amazonaws.com,Stream Services
+
 DOMAIN-SUFFIX,hbo.com,Stream Services
+DOMAIN-SUFFIX,hboasia.com,Stream Services
 DOMAIN-SUFFIX,hbogo.com,Stream Services
+DOMAIN-SUFFIX,hbogo.com,Stream Services
+DOMAIN-SUFFIX,hbogoasia.hk,Stream Services
+
+USER-AGENT,HBO*,Stream Services
 
 //Hulu
+DOMAIN-SUFFIX,happyon.jp,Stream Services
 DOMAIN-SUFFIX,hulu.com,Stream Services
 DOMAIN-SUFFIX,huluim.com,Stream Services
-DOMAIN-SUFFIX,happyon.jp,Stream Services
+DOMAIN-SUFFIX,hulustream.com,Stream Services
+
+USER-AGENT,Hulu*,Stream Services
+
+//ITV
+DOMAIN,itvpnpmobile-a.akamaihd.net,Stream Services
+
+DOMAIN-SUFFIX,itv.com,Stream Services
+DOMAIN-SUFFIX,itvstatic.com,Stream Services
+
+USER-AGENT,ITV_Player*,Stream Services
+
+//JOOX
+DOMAIN-SUFFIX,joox.com,Stream Services
+
+USER-AGENT,JOOX*,Stream Services
+USER-AGENT,WeMusic*,Stream Services
 
 //Jwplayer
 DOMAIN,content.jwplatform.com,Stream Services
 DOMAIN,videos-f.jwpsrv.com,Stream Services
 
-//JOOX
-DOMAIN-SUFFIX,joox.com,Stream Services
+//KKBOX
+DOMAIN-SUFFIX,kfs.io,Stream Services
+DOMAIN-SUFFIX,kkbox.com,Stream Services
+DOMAIN-SUFFIX,kkbox.com.tw,Stream Services
+
+//KKTV
+DOMAIN,kktv-theater.kk.stream,Stream Services
+
+DOMAIN-SUFFIX,kktv.com.tw,Stream Services
+DOMAIN-SUFFIX,kktv.me,Stream Services
+
+USER-AGENT,com.kktv.ios.kktv*,Stream Services
+USER-AGENT,KKTV*,Stream Services
+
+//Line TV
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,Stream Services
+DOMAIN-SUFFIX,linetv.tw,Stream Services
+USER-AGENT,LINE%20TV*,Stream Services
+
+//LiTV
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,Stream Services
+DOMAIN-SUFFIX,litv.tv,Stream Services
+//My5
+DOMAIN,d349g9zuie06uo.cloudfront.net,Stream Services
+DOMAIN-SUFFIX,channel5.com,Stream Services
+DOMAIN-SUFFIX,my5.tv,Stream Services
+
+USER-AGENT,My5*,Stream Services
 
 //myTV Super
 DOMAIN-SUFFIX,mytvsuper.com,Stream Services
 DOMAIN-SUFFIX,tvb.com,Stream Services
+
+USER-AGENT,mytv*,Stream Services
 
 //Netflix
 DOMAIN-SUFFIX,netflix.com,Stream Services
@@ -63,16 +182,69 @@ DOMAIN-SUFFIX,nflximg.net,Stream Services
 DOMAIN-SUFFIX,nflxso.net,Stream Services
 DOMAIN-SUFFIX,nflxvideo.net,Stream Services
 
-//Spotify
-DOMAIN-SUFFIX,scdn.co,Stream Services
-DOMAIN-SUFFIX,spotify.com,Stream Services
-DOMAIN-SUFFIX,spoti.fi,Stream Services
+IP-CIDR,23.246.0.0/18,Stream Services
+IP-CIDR,37.77.184.0/21,Stream Services
+IP-CIDR,45.57.0.0/17,Stream Services
+IP-CIDR,64.120.128.0/17,Stream Services
+IP-CIDR,66.197.128.0/17,Stream Services
+IP-CIDR,108.175.32.0/20,Stream Services
+IP-CIDR,192.173.64.0/18,Stream Services
+IP-CIDR,198.38.96.0/19,Stream Services
+IP-CIDR,198.45.48.0/20,Stream Services
 
-//YouTube
-DOMAIN-SUFFIX,googlevideo.com,Stream Services
-DOMAIN-SUFFIX,youtube.com,Stream Services
+USER-AGENT,Argo*,Stream Services
+
+//Pandora
+DOMAIN-SUFFIX,pandora.com,Stream Services
+USER-AGENT,Pandora*,Stream Services
+
+//PBS
+DOMAIN-SUFFIX,pbs.org,Stream Services
+USER-AGENT,PBS*,Stream Services
+
+//Pornhub
+DOMAIN-SUFFIX,phncdn.com,Stream Services
+DOMAIN-SUFFIX,pornhub.com,Stream Services
+DOMAIN-SUFFIX,pornhubpremium.com,Stream Services
+
+//Spotify
+DOMAIN-SUFFIX,pscdn.co,Stream Services
+DOMAIN-SUFFIX,scdn.co,Stream Services
+DOMAIN-SUFFIX,spoti.fi,Stream Services
+DOMAIN-SUFFIX,spotify.com,Stream Services
+
+USER-AGENT,Spotify*,Stream Services
+
+//TIDAL
+USER-AGENT,TIDAL*,Stream Services
+DOMAIN-SUFFIX,tidal.com,Stream Services
+
+//Twitch
+DOMAIN-SUFFIX,twitch.tv,Stream Services
+DOMAIN-SUFFIX,twitchcdn.net,Stream Services
+DOMAIN-SUFFIX,ttvnw.net,Stream Services
+
+//ViuTV
+DOMAIN,api.viu.now.com,Stream Services
+DOMAIN,d1k2us671qcoau.cloudfront.net,Stream Services
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,Stream Services
+DOMAIN,dfp6rglgjqszk.cloudfront.net,Stream Services
+
+DOMAIN-SUFFIX,viu.com,Stream Services
+DOMAIN-SUFFIX,viu.tv,Stream Services
+USER-AGENT,ViuTV*,Stream Services
+
+//Youtube
 DOMAIN,youtubei.googleapis.com,Stream Services
 
+DOMAIN-SUFFIX,googlevideo.com,Stream Services
+DOMAIN-SUFFIX,youtube.com,Stream Services
+
+USER-AGENT,com.google.ios.youtube*,Stream Services
+USER-AGENT,YouTube*,Stream Services
+USER-AGENT,YouTubeMusic*,Stream Services
+
+// --- End of Stream Service Section ---
 
 //REJECT
 
