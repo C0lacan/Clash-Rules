@@ -1151,6 +1151,10 @@ DOMAIN-SUFFIX,feng.com,Domestic
 //CloudXNS
 DOMAIN-SUFFIX,cloudxns.net,Domestic
 
+//Microsoft SmartScreen
+DOMAIN,checkappexec.microsoft.com,Domestic
+DOMAIN-SUFFIX,smartscreen.microsoft.com,Domestic
+
 //其他
 DOMAIN-SUFFIX,bemanicn.cc,Domestic
 DOMAIN-SUFFIX,chn-ix.net,Domestic
