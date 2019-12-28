@@ -1125,6 +1125,10 @@ DOMAIN-SUFFIX,hdslb.com,Domestic
 //什么值得买
 DOMAIN-SUFFIX,smzdm.com,Domestic
 
+//网易云映月
+DOMAIN-SUFFIX,music.163.com,Netease Music
+DOMAIN-SUFFIX,music.126.net,Netease Music
+
 //网易
 DOMAIN-SUFFIX,126.net,Domestic
 DOMAIN-SUFFIX,163.com,Domestic
