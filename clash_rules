@@ -17,6 +17,10 @@ DOMAIN-SUFFIX,mzstatic.com,Apple Services
 
 // --- Stream Service ---
 
+//4gtv
+DOMAIN-SUFFIX,4gtv.tv,Stream Services
+DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net,Stream Services
+
 //AbemaTV
 DOMAIN,abematv.akamaized.net,Stream Services
 DOMAIN,ds-linear-abematv.akamaized.net,Stream Services
