@@ -1176,6 +1176,7 @@ DOMAIN,checkappexec.microsoft.com,Domestic
 DOMAIN-SUFFIX,smartscreen.microsoft.com,Domestic
 
 //其他
+DOMAIN,cn.download.nvidia.com,Domestic
 DOMAIN-SUFFIX,bemanicn.cc,Domestic
 DOMAIN-SUFFIX,chn-ix.net,Domestic
 DOMAIN-SUFFIX,fir.im,Domestic
