@@ -9,5 +9,5 @@ return [
     'log-level'           => 'info',
     'external-controller' => '127.0.0.1:6170',
     'secret'              => '',
-    'cfw-latency-url'     => 'http://captive.rixcloud.io/generate_204',
+    'cfw-latency-url'     => 'http://cp.cloudflare.com/generate_204',
 ];
