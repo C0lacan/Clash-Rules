@@ -1123,8 +1123,10 @@ DOMAIN-SUFFIX,xitu.io,Domestic
 //哔哩哔哩
 DOMAIN-SUFFIX,acg.tv,Domestic
 DOMAIN-SUFFIX,acgvideo.com,Domestic
+DOMAIN-SUFFIX,biliapi.net,Domestic
 DOMAIN-SUFFIX,bilibili.cn,Domestic
 DOMAIN-SUFFIX,bilibili.com,Domestic
+DOMAIN-SUFFIX,bilivideo.com,Domestic
 DOMAIN-SUFFIX,hdslb.com,Domestic
 
 //什么值得买
