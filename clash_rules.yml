@@ -1,0 +1,76 @@
+rule-providers:
+  Apple Services Domains:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_apple_services_domains'
+    path: ./clash_apple_services_domains
+    interval: 86400
+  Global Services Domains:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_global_services_domains'
+    path: ./clash_global_services_domains
+    interval: 86400
+  Global Services IPs:
+    type: http
+    behavior: ipcidr
+    url: 'https://ruleset.dev/clash_global_services_ips'
+    path: ./clash_global_services_ips
+    interval: 86400
+  Stream Services Domains:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_stream_services_domains'
+    path: ./clash_stream_services_domains
+    interval: 86400
+  Stream Services IPs:
+    type: http
+    behavior: ipcidr
+    url: 'https://ruleset.dev/clash_stream_services_ips'
+    path: ./clash_stream_services_ips
+    interval: 86400
+  Domestic Services Domains:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_domestic_services_domains'
+    path: ./clash_domestic_services_domains
+    interval: 86400
+  Reject Domains:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_reject_domains'
+    path: ./clash_reject_domains
+    interval: 86400
+  Reject IPs:
+    type: http
+    behavior: ipcidr
+    url: 'https://ruleset.dev/clash_reject_ips'
+    path: ./clash_reject_ips
+    interval: 86400
+  Netease Music Domains:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_netease_music_domains'
+    path: ./clash_netease_music_domains
+    interval: 86400
+
+rules:
+  - 'RULE-SET,Reject Domains,AD Block'
+  - 'RULE-SET,Reject IPs,AD Block'
+  - 'RULE-SET,Netease Music Domains,Netease Music'
+  - 'RULE-SET,Stream Services Domains,Stream Services'
+  - 'RULE-SET,Stream Services IPs,Stream Services'
+  - 'RULE-SET,Global Services Domains,rixCloud'
+  - 'RULE-SET,Global Services IPs,rixCloud'
+  - 'RULE-SET,Apple Services Domains,Apple Services'
+  - 'RULE-SET,Domestic Services Domains,Domestic'
+  - 'GEOIP,CN,Domestic'
+  - 'DOMAIN-SUFFIX,local,DIRECT'
+  - 'IP-CIDR,127.0.0.0/8,DIRECT'
+  - 'IP-CIDR,172.16.0.0/12,DIRECT'
+  - 'IP-CIDR,192.168.0.0/16,DIRECT'
+  - 'IP-CIDR,10.0.0.0/8,DIRECT'
+  - 'IP-CIDR,17.0.0.0/8,DIRECT'
+  - 'IP-CIDR,100.64.0.0/10,DIRECT'
+  - 'MATCH,rixCloud'
+
