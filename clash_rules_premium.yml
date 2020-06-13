@@ -35,6 +35,12 @@ rule-providers:
     url: 'https://ruleset.dev/clash_domestic_services_domains'
     path: ./clash_domestic_services_domains
     interval: 86400
+  Domestic Services IPs:
+    type: http
+    behavior: domain
+    url: 'https://ruleset.dev/clash_domestic_services_ips'
+    path: ./clash_domestic_services_ips
+    interval: 86400
   Reject Domains:
     type: http
     behavior: domain
@@ -64,7 +70,7 @@ rules:
   - 'RULE-SET,Global Services IPs,rixCloud'
   - 'RULE-SET,Apple Services Domains,Apple Services'
   - 'RULE-SET,Domestic Services Domains,Domestic'
-  - 'GEOIP,CN,Domestic'
+  - 'RULE-SET,Domestic Services IPs,Domestic'
   - 'DOMAIN-SUFFIX,local,DIRECT'
   - 'IP-CIDR,127.0.0.0/8,DIRECT'
   - 'IP-CIDR,172.16.0.0/12,DIRECT'
