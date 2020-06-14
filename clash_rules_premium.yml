@@ -37,7 +37,7 @@ rule-providers:
     interval: 86400
   Domestic Services IPs:
     type: http
-    behavior: domain
+    behavior: ipcidr
     url: 'https://ruleset.dev/clash_domestic_services_ips'
     path: ./clash_domestic_services_ips
     interval: 86400
