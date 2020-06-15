@@ -234,6 +234,7 @@ rules:
   - 'DOMAIN-SUFFIX,app-adforce.jp,AD Block'
   - 'DOMAIN-SUFFIX,appboy.com,AD Block'
   - 'DOMAIN-SUFFIX,appier.net,AD Block'
+  - 'DOMAIN-SUFFIX,app-measurement.com,AD Block'
   - 'DOMAIN-SUFFIX,appnext.com,AD Block'
   - 'DOMAIN-SUFFIX,appsflyer.com,AD Block'
   - 'DOMAIN-SUFFIX,apptentive.com,AD Block'
@@ -390,6 +391,7 @@ rules:
   - 'DOMAIN,app-ad.variflight.com,AD Block'
   - 'DOMAIN,applog.mobike.com,AD Block'
   - 'DOMAIN,appnext.hs.llnwd.net,AD Block'
+  - 'DOMAIN,extlog.snssdk.com,AD Block'
   - 'DOMAIN,ggs.myzaker.com,AD Block'
   - 'DOMAIN,log.b612kaji.com,AD Block'
   - 'DOMAIN,log.snssdk.com,AD Block'
@@ -401,6 +403,7 @@ rules:
   - 'DOMAIN,logs.chelaile.net.cn,AD Block'
   - 'DOMAIN,mopnativeadv.037201.com,AD Block'
   - 'DOMAIN,nativeadv.dftoutiao.com,AD Block'
+  - 'DOMAIN,pangolin.snssdk.com,AD Block'
   - 'DOMAIN,report.jpush.cn,AD Block'
   - 'DOMAIN,s0.2mdn.net,AD Block'
   - 'DOMAIN,static.jpush.cn,AD Block'
@@ -445,6 +448,11 @@ rules:
   - 'DOMAIN,newvector.map.baidu.com,AD Block'
   - 'DOMAIN,ulog.imap.baidu.com,AD Block'
   - 'DOMAIN,newloc.map.n.shifen.com,AD Block'
+
+# Bilibili
+  - 'DOMAIN,thirdparty.biliapi.com,AD Block'
+  - 'DOMAIN,thirdparty.biliapi.net,AD Block'
+  - 'DOMAIN,cm.bilibili.com,AD Block'
 
 # HunanTV
   - 'DOMAIN-SUFFIX,da.mgtv.com,AD Block'
@@ -563,6 +571,13 @@ rules:
   - 'DOMAIN,adtrack.ucweb.com,AD Block'
   - 'DOMAIN,applogios.uc.cn,AD Block'
   - 'DOMAIN,track.uc.cn,AD Block'
+
+# XiguaVideo
+  - 'DOMAIN,v1-dc-ad.ixigua.com,AD Block'
+  - 'DOMAIN,v3-ad.ixigua.com,AD Block'
+  - 'DOMAIN,v3-dc-ad.ixigua.com,AD Block'
+  - 'DOMAIN,v6-dc-ad.ixigua.com,AD Block'
+  - 'DOMAIN,v9-dc-ad.ixigua.com,AD Block'
 
 # Xuneli
   - 'DOMAIN,adsp.xunlei.com,AD Block'
