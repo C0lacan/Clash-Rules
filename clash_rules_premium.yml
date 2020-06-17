@@ -3,61 +3,61 @@ rule-providers:
     type: http
     behavior: domain
     url: 'https://ruleset.dev/clash_apple_services_domains'
-    path: ./clash_apple_services_domains
+    path: ./rixCloud-Ruleset/clash_apple_services_domains
     interval: 86400
   Global Services Domains:
     type: http
     behavior: domain
     url: 'https://ruleset.dev/clash_global_services_domains'
-    path: ./clash_global_services_domains
+    path: ./rixCloud-Ruleset/clash_global_services_domains
     interval: 86400
   Global Services IPs:
     type: http
     behavior: ipcidr
     url: 'https://ruleset.dev/clash_global_services_ips'
-    path: ./clash_global_services_ips
+    path: ./rixCloud-Ruleset/clash_global_services_ips
     interval: 86400
   Stream Services Domains:
     type: http
     behavior: domain
     url: 'https://ruleset.dev/clash_stream_services_domains'
-    path: ./clash_stream_services_domains
+    path: ./rixCloud-Ruleset/clash_stream_services_domains
     interval: 86400
   Stream Services IPs:
     type: http
     behavior: ipcidr
     url: 'https://ruleset.dev/clash_stream_services_ips'
-    path: ./clash_stream_services_ips
+    path: ./rixCloud-Ruleset/clash_stream_services_ips
     interval: 86400
   Domestic Services Domains:
     type: http
     behavior: domain
     url: 'https://ruleset.dev/clash_domestic_services_domains'
-    path: ./clash_domestic_services_domains
+    path: ./rixCloud-Ruleset/clash_domestic_services_domains
     interval: 86400
   Domestic Services IPs:
     type: http
     behavior: ipcidr
     url: 'https://ruleset.dev/clash_domestic_services_ips'
-    path: ./clash_domestic_services_ips
+    path: ./rixCloud-Ruleset/clash_domestic_services_ips
     interval: 86400
   Reject Domains:
     type: http
     behavior: domain
     url: 'https://ruleset.dev/clash_reject_domains'
-    path: ./clash_reject_domains
+    path: ./rixCloud-Ruleset/clash_reject_domains
     interval: 86400
   Reject IPs:
     type: http
     behavior: ipcidr
     url: 'https://ruleset.dev/clash_reject_ips'
-    path: ./clash_reject_ips
+    path: ./rixCloud-Ruleset/clash_reject_ips
     interval: 86400
   Netease Music Domains:
     type: http
     behavior: domain
     url: 'https://ruleset.dev/clash_netease_music_domains'
-    path: ./clash_netease_music_domains
+    path: ./rixCloud-Ruleset/clash_netease_music_domains
     interval: 86400
 
 rules:
